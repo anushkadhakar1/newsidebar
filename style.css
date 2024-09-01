@@ -13,7 +13,6 @@ body {
 
 .container {
 	display: flex;
-	flex: 1;
 	transition: margin-left 0.3s ease;
 }
 
@@ -27,13 +26,32 @@ body {
 	z-index: 1000;
 }
 
-.sidebar h2 {
-	margin-top: 0;
-}
+.nav-menu {
+ 
+    padding: 10px 20px;
+    background-color: transparent;
+    overflow: hidden;
 
-.sidebar p {
-	line-height: 1.6;
-}
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    gap: 20px;
+   
+
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 80px;
+  }
+  
+  .nav-menu a:hover {
+    color: green;
+  }
+  
 
 .main-content {
 	flex: 1;
