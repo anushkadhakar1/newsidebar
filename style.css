@@ -18,7 +18,7 @@ body {
 }
 
 .sidebar {
-	background-color: #333;
+	background-color: rgb(2, 2, 35);
 	color: white;
 	width: 250px;
 	padding: 20px;
@@ -38,7 +38,16 @@ body {
 .main-content {
 	flex: 1;
 	padding: 20px;
-	background-color: #f4f4f4;
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+	background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3e461415-cff4-49a9-9589-baed37615a07/demkhjk-349a3dd2-9089-4c0a-adb5-faee7ec73006.jpg/v1/fill/w_1032,h_774,q_70,strp/rainy_weather_wallpaper_by_gb6162249_demkhjk-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTYwIiwicGF0aCI6IlwvZlwvM2U0NjE0MTUtY2ZmNC00OWE5LTk1ODktYmFlZDM3NjE1YTA3XC9kZW1raGprLTM0OWEzZGQyLTkwODktNGMwYS1hZGI1LWZhZWU3ZWM3MzAwNi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ouPuItsN6UCeLdH9SA5OYHckZoupJuiDu4zTy4sxw1s');
+	background-repeat: no-repeat;
+	background-color: hsla(265, 79%, 11%, 0.6);
+	display: grid;
+    color: #fff;
+	background-blend-mode: overlay;
+	background-position: center;
 }
 
 .sidebar-toggle {
@@ -95,7 +104,7 @@ body {
 	}
 }
 
-@media (min-width: 767px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
 	.sidebar {
 		width: 200px;
 	}
@@ -104,9 +113,5 @@ body {
 @media (min-width: 1024px) {
 	.sidebar {
 		width: 300px;
-	}
-	
-	.sidebar-toggle {
-		display: none;
 	}
 }
