@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar Example</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+    <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle Sidebar">
+        &#9776; 
+    </button>
+
+    <div class="container">
+        <aside class="sidebar" id="sidebar">
+            <h2>Sidebar</h2>
+            <p>This is the sidebar content. On mobile devices, this sidebar will be hidden.</p>
+          
+        </aside>
+        <main class="main-content">
+            <h1>Main Content</h1>
+            <p>This is the main content area. The sidebar is hidden on screens smaller than 768px.</p>
+     
+        </main>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
